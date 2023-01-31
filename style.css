@@ -1,0 +1,60 @@
+table {
+  width: 100%;
+  overflow: hidden;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+table,
+th,
+td {
+  padding: 15px;
+}
+table thead tr,
+table tfoot tr {
+  background-color: #0d21f4;
+  color: #ffffff;
+  text-align: left;
+}
+table th,
+table td {
+  padding: 12px 15px;
+}
+td {
+  text-align: center;
+}
+.logo {
+  width: 40px;
+}
+table tbody tr {
+    height: 5rem;
+    overflow: hidden;
+  border-bottom: 1px solid #dddddd;
+  transition: all 0.5s;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+thead,
+tfoot {
+  background-color: rgb(19, 19, 245);
+}
+
+table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+table tbody tr:hover {
+  background-color: #f3f3f3;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1);
+  background-color: rgb(213, 211, 211);
+}
